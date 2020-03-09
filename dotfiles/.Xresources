@@ -1,14 +1,14 @@
-urxvt*termName: rxvt
-urxvt*scrollBar: false
-urxvt*matcher.button: 1
-urxvt.boldFont:
-Xft*dpi: 96
-Xft*antialias: true
-Xft*hinting: full
-URxvt*geometry: 85x20
-URxvt*tintColor: 		#ffffff
-URxvt*shading: 		32
-
+urxvt*termName: 	rxvt
+urxvt*scrollBar: 	false
+urxvt*matcher.button: 	1
+Xft*dpi: 		96
+Xft*antialias: 		true
+Xft*hinting: 		full
+URxvt*geometry: 	85x20
+URxvt*tintColor: 	#ffffff
+URxvt*transparent:	true
+URxvt*shading: 		50
+URxvt*blurRadius:	15
 *.foreground:   #c2c2b0
 *.background:   #121212
 *.cursorColor:  #c2c2b0
@@ -37,9 +37,5 @@ URxvt*shading: 		32
 *.color7:       #c1c1c1
 *.color15:      #c1c1c1
 !fonts
-*.font:	xft:UbuntuMono Nerd Font:size=14, \
-		xft:Inconsolata Nerd Font Mono:size=14, \
-		xft:DejaVuSansMono Nerd Font:size=14, \
-		xft:DroidSansMono NerdFont:size=14, \
-		xft:RobotoMono Nerd Font:size=14, \
-		xft:monospace:style=Medium:antialias=false
+URxvt*font: xft:erus erusfont:style=Regular:pixelsize=11
+URxvt*boldFont: xft:erus erusfont:stylr=Regular:pixelsize=11
